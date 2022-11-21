@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+.container {
+  max-width: 1196px;
+  margin: auto;
+}
+/* Header */
+header {
+  padding: 35px 0 125px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header-wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+button {
+  background-color: #f84646;
+  border-radius: 5px;
+  width: 91px;
+  height: 40px;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+/* First Screen */
+.first-screen {
+  padding: 200px 0 148px 0;
+  background-image: url(../images/background-header.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h1 {
+  max-width: 665px;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 82px;
+}
+.first-screen p {
+  max-width: 650px;
+  margin: 20px 0 50px 0;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+}
+.registration {
+  background-color: #fff;
+  max-width: 42%;
+}
+.but-reg {
+  width: 26%;
+  height: 61px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  vertical-align: middle;
+  margin: 6px 6px 6px 0;
+}
+input {
+  padding: 19px 32px 18px 32px;
+  width: 72%;
+  vertical-align: middle;
+  border: none;
+}
